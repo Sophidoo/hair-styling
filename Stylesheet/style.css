@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+html{
+    scroll-behavior: scroll;
+}
+.hero-wrapper{
+    height: fit-content;
+    background-image: url(https://wallpaperaccess.com/full/3851122.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
+.hero{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+    align-items: center;
+    padding: 20px 100px;
+}
+.menu{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.menu a:nth-child(1){
+    color: rgb(245, 70, 70);
+}
+.login{
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo{
+    font-size: 25px;
+}
+.logo span{
+    color: rgb(189, 35, 35);
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(245, 70, 70);
+    transition: 500ms;
+}
+.login button{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(189, 35, 35);
+    border: none;
+    font-size: 14px;
+}
+
+.login button:hover{
+    box-shadow: 0px 10px 17px rgba(73, 11, 11, 0.274);
+    transition: 500ms;
+    cursor: pointer;
+}
+.intro-wrapper{
+    height: 550px;
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    text-align: center;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro h1{
+    font-size: 50px;
+    width: 80%;
+}
+.intro p{
+    font-size: 22px;
+    width: 70%;
+}
+.intro-wrapper button{
+    width: fit-content;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(189, 35, 35);
+    color: white;
+    font-size: 15px;
+}
+.intro-wrapper button:hover{
+    box-shadow: 0px 10px 17px rgba(46, 3, 3, 0.507);
+    transition: 500ms;
+    cursor: pointer;
+}
+.main-wrapper{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.hair-type{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+.hair-type h1{
+    font-size: 40px;
+}
+.hair-type p{
+    width: 85%;
+    font-size: 19px;
+}
+.hair-picture{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+.hair{
+    width: 25%;
+    height: 250px;
+    background-image: url(https://images.herzindagi.info/image/2020/Oct/hair-straightening.jpg);
+    background-size: cover;
+}
+.wavy{
+    background-image: url(https://www.boots.ie/resource/image/2725632/estore_how_to/640/640/7374795c94ade5c079ad46e942b44862/KX/beauty-skincare-hair-advice-hair-tips-different-types-of-textured-hair-650x650-curly-hair.jpg);
+    background-size: cover;
+}
+.curly{
+    background-image: url(https://i.pinimg.com/originals/9a/29/43/9a29436804fafacf2ba452c7c65e1adb.jpg);
+    background-size: cover;
+}
+.coily{
+    background-image: url(https://media.allure.com/photos/5efb48b8b8a4860008644fa2/1:1/w_354%2Cc_limit/national%2520crown%2520day.png);
+    background-size: cover;
+}
+.hair h3{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.349);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+
+
+.professionals-wrapper{
+    padding: 80px 100px;
+    padding-bottom: 100px;
+    background-color: rgba(189, 35, 35, 0.377);
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100% );
+}
+.professionals{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 45%;
+
+}
+.professionals h1{
+    font-size: 40px;
+}
+.professionals p{
+    font-size: 19px;
+    line-height: 25px;
+    width: 100%;
+    justify-content: center;
+    text-align: justify;
+}
+.professionals button{
+    width: fit-content;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(189, 35, 35);
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.professionals button:hover{
+    box-shadow: 0px 10px 17px rgba(189, 35, 35, 0.459);
+    transition: 500ms;
+    cursor: pointer;
+}
+.image-wrap{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.left-image{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.left-image img{
+    width: 100%;
+    height: 190px;
+    background-color: gray;
+    object-fit: cover;
+}
+.left-image img:nth-child(2){
+    height: 200px;
+}
+.right-image{
+    width: 45%;
+    height: 370px;
+    background-color: gray;
+}
+.right-image img{
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+
+
+
+.booking-wrapper{
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    /* background-color: rgb(209, 209, 209); */
+}
+.booking-wrapper h1{
+    font-size: 40px;
+    text-align: center;
+}
+.booking{
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+.stylist{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgb(216, 216, 216);
+    padding: 40px 20px;
+}
+.stylist i{
+    font-size: 35px;
+    color: rgb(189, 35, 35);
+}
+.material-symbols-outlined {
+    font-size: 40px;
+    color: rgb(189, 35, 35);
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+  .procedure{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      row-gap: 7px;
+  }
+.procedure h3{
+    font-size: 22px;
+    text-align: center;
+}
+.procedure p{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+.world-wrapper{
+    background-color: rgba(189, 35, 35, 0.377);
+    padding: 80px 100px;
+    padding-bottom: 60px;
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100% );
+    display: flex;
+    align-items: center;
+}
+.search-world{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.search-world-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.search-world-info h1{
+    font-size: 35px;
+}
+.search-world-info p{
+    font-size: 19px;
+    text-align: justify;
+}
+.search-world button{
+    width: fit-content;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(189, 35, 35);
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.search-world button:hover{
+    box-shadow: 0px 10px 17px rgba(189, 35, 35, 0.459);
+    transition: 500ms;
+    cursor: pointer;
+}
+.world-wrapper img{
+    background-color: transparent;
+    background-blend-mode: multiply;
+    width: 50%;
+    opacity: 0.5;
+}
+
+
+
+
+.register-wrapper{
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+.register{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.register-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.register-info h1{
+    font-size: 35px;
+}
+.register-info p{
+    font-size: 19px;
+    text-align: justify;
+}
+.register-wrapper img{
+    width: 45%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 0px 20px rgb(212, 212, 212);
+}
+.register-wrapper button{
+    width: fit-content;
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(189, 35, 35);
+    border: none;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.register-wrapper button:hover{
+    box-shadow: 0px 10px 17px rgba(189, 35, 35, 0.459);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgba(189, 35, 35, 0.377);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 100px;
+}
+footer p{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
